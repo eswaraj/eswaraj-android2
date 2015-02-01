@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eSwaraj</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginButtonText">Login with Facebook</string>
+    <string name="skipButtonText">Skip</string>
+    <string name="quitButtonText">Quit</string>
+    <string name="gotItButtonText">Got It!</string>
+    <string name="getDataError">Network Error. Could not fetch data</string>
+    <string name="facebook_app_id">958809957480252</string>
+    <string name="facebook_app_id_old">306847796169444</string>
+    <string name="title_activity_select_amenity">SelectAmenityActivity</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_select_template">SelectTemplateActivity</string>
+    <string name="title_activity_add_details">AddDetailsActivity</string>
+    <string name="title_activity_mark_location">MarkLocationActivity</string>
+    <string name="title_activity_complaint_summary">ComplaintSummaryActivity</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="title_activity_my_complaints">MyComplaintsActivity</string>
+    <string name="title_activity_single_complaint">SingleComplaintActivity</string>
+    <string name="search_hint">Location/Leader</string>
+
+    <string-array name="splash_text">
+        <item>Select an issue in your locality that\'s bugging you for a while</item>
+        <item>Post picture and submit your issue to know about your location MLA</item>
+        <item>View overall and constituency level analytics on the existing civic amenity issues </item>
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login_dialog">LoginDialogActivity</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="title_activity_constituency">ConstituencyActivity</string>
+    <string name="title_activity_leader">LeaderActivity</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_complaint_filter">ComplaintFilterActivity</string>
+    <string name="title_activity_constituency_snapshot">ConstituencySnapshotActivity</string>
+    <string name="title_activity_user_snapshot">UserSnapshotActivity</string>
+    <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="title_activity_leader_list">LeaderListActivity</string>
+    <string name="title_activity_location_list">LocationListActivity</string>
+
+</resources>

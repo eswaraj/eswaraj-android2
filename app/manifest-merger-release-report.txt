@@ -1,0 +1,464 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:6:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:5
+permission#com.next.eswaraj.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:9:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:11:9
+	android:name
+		ADDED from AndroidManifest.xml:10:9
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#com.next.eswaraj.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+application
+ADDED from AndroidManifest.xml:22:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.facebook.android:facebook-android-sdk:3.20.0:24:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.pnikosis:materialish-progress:1.2:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from cn.pedant.sweetalert:library:1.3:11:5
+MERGED from com.pnikosis:materialish-progress:1.2:11:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.maps.android:android-maps-utils:0.3.4:7:5
+MERGED from com.astuetz:pagerslidingtabstrip:1.0.1:4:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:cardview-v7:21.0.3:16:5
+MERGED from com.android.support:recyclerview-v7:21.0.3:17:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:26:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:24:9
+	android:icon
+		ADDED from AndroidManifest.xml:25:9
+	android:theme
+		ADDED from AndroidManifest.xml:28:9
+	android:name
+		ADDED from AndroidManifest.xml:23:9
+	android:logo
+		ADDED from AndroidManifest.xml:27:9
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:30:13
+	android:value
+		ADDED from AndroidManifest.xml:31:13
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:33:9
+MERGED from com.google.android.gms:play-services:6.5.87:21:9
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+	android:value
+		ADDED from AndroidManifest.xml:35:13
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:38:13
+	android:value
+		ADDED from AndroidManifest.xml:39:13
+activity#com.next.eswaraj.activities.LoginActivity
+ADDED from AndroidManifest.xml:42:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:47:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:45:13
+	android:label
+		ADDED from AndroidManifest.xml:44:13
+	android:theme
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+activity#com.next.eswaraj.activities.SelectAmenityActivity
+ADDED from AndroidManifest.xml:49:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:53:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:52:13
+	android:label
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+activity#com.next.eswaraj.activities.YoutubeActivity
+ADDED from AndroidManifest.xml:55:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:58:13
+	android:label
+		ADDED from AndroidManifest.xml:57:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+activity#com.next.eswaraj.base.BaseActivity
+ADDED from AndroidManifest.xml:60:9
+	android:label
+		ADDED from AndroidManifest.xml:62:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+activity#com.facebook.LoginActivity
+ADDED from AndroidManifest.xml:64:9
+	android:label
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+activity#com.next.eswaraj.activities.SelectTemplateActivity
+ADDED from AndroidManifest.xml:68:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:73:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:72:13
+	android:label
+		ADDED from AndroidManifest.xml:70:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:75:17
+	android:value
+		ADDED from AndroidManifest.xml:76:17
+activity#com.next.eswaraj.activities.AddDetailsActivity
+ADDED from AndroidManifest.xml:78:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:83:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:82:13
+	android:label
+		ADDED from AndroidManifest.xml:80:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#com.next.eswaraj.activities.MarkLocationActivity
+ADDED from AndroidManifest.xml:88:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:93:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:92:13
+	android:label
+		ADDED from AndroidManifest.xml:90:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:91:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+activity#com.next.eswaraj.activities.ComplaintSummaryActivity
+ADDED from AndroidManifest.xml:98:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:103:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:102:13
+	android:label
+		ADDED from AndroidManifest.xml:100:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:101:13
+	android:name
+		ADDED from AndroidManifest.xml:99:13
+activity#com.next.eswaraj.activities.UserComplaintsActivity
+ADDED from AndroidManifest.xml:108:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:113:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:112:13
+	android:label
+		ADDED from AndroidManifest.xml:110:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:109:13
+activity#com.next.eswaraj.activities.SingleComplaintActivity
+ADDED from AndroidManifest.xml:115:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:120:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:119:13
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:118:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+activity#com.next.eswaraj.activities.HomeActivity
+ADDED from AndroidManifest.xml:122:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:125:13
+	android:label
+		ADDED from AndroidManifest.xml:124:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+activity#com.next.eswaraj.activities.SplashActivity
+ADDED from AndroidManifest.xml:127:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:131:13
+	android:label
+		ADDED from AndroidManifest.xml:130:13
+	android:icon
+		ADDED from AndroidManifest.xml:129:13
+	android:theme
+		ADDED from AndroidManifest.xml:132:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:133:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:134:17
+	android:name
+		ADDED from AndroidManifest.xml:134:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:136:17
+	android:name
+		ADDED from AndroidManifest.xml:136:27
+activity#com.next.eswaraj.activities.MyProfileActivity
+ADDED from AndroidManifest.xml:139:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:143:13
+	android:label
+		ADDED from AndroidManifest.xml:141:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:142:13
+	android:name
+		ADDED from AndroidManifest.xml:140:13
+activity#com.next.eswaraj.activities.ConstituencyComplaintsActivity
+ADDED from AndroidManifest.xml:148:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:152:13
+	android:label
+		ADDED from AndroidManifest.xml:150:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:151:13
+	android:name
+		ADDED from AndroidManifest.xml:149:13
+receiver#com.next.eswaraj.broadcast_receivers.InternetBroadcastReceiver
+ADDED from AndroidManifest.xml:158:9
+	android:exported
+		ADDED from AndroidManifest.xml:161:13
+	android:enabled
+		ADDED from AndroidManifest.xml:160:13
+	android:name
+		ADDED from AndroidManifest.xml:159:13
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:162:13
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:163:17
+	android:name
+		ADDED from AndroidManifest.xml:163:25
+service#com.next.eswaraj.services.ComplaintPostService
+ADDED from AndroidManifest.xml:167:9
+	android:exported
+		ADDED from AndroidManifest.xml:170:13
+	android:enabled
+		ADDED from AndroidManifest.xml:169:13
+	android:name
+		ADDED from AndroidManifest.xml:168:13
+service#com.next.eswaraj.base.BaseService
+ADDED from AndroidManifest.xml:172:9
+	android:exported
+		ADDED from AndroidManifest.xml:175:13
+	android:enabled
+		ADDED from AndroidManifest.xml:174:13
+	android:name
+		ADDED from AndroidManifest.xml:173:13
+receiver#com.next.eswaraj.broadcast_receivers.GcmBroadcastReceiver
+ADDED from AndroidManifest.xml:178:9
+	android:exported
+		ADDED from AndroidManifest.xml:181:13
+	android:enabled
+		ADDED from AndroidManifest.xml:180:13
+	android:permission
+		ADDED from AndroidManifest.xml:182:13
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.next.eswaraj
+ADDED from AndroidManifest.xml:183:13
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:184:17
+	android:name
+		ADDED from AndroidManifest.xml:184:25
+category#com.next.eswaraj
+ADDED from AndroidManifest.xml:186:17
+	android:name
+		ADDED from AndroidManifest.xml:186:27
+activity#com.next.eswaraj.activities.LeaderActivity
+ADDED from AndroidManifest.xml:190:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:194:13
+	android:label
+		ADDED from AndroidManifest.xml:192:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:193:13
+	android:name
+		ADDED from AndroidManifest.xml:191:13
+service#com.next.eswaraj.services.GcmService
+ADDED from AndroidManifest.xml:200:9
+	android:exported
+		ADDED from AndroidManifest.xml:202:13
+	android:name
+		ADDED from AndroidManifest.xml:201:13
+activity#com.next.eswaraj.activities.ContentActivity
+ADDED from AndroidManifest.xml:205:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:209:13
+	android:label
+		ADDED from AndroidManifest.xml:207:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:208:13
+	android:name
+		ADDED from AndroidManifest.xml:206:13
+activity#com.next.eswaraj.activities.ComplaintFilterActivity
+ADDED from AndroidManifest.xml:214:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:218:13
+	android:label
+		ADDED from AndroidManifest.xml:216:13
+	android:theme
+		ADDED from AndroidManifest.xml:219:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:217:13
+	android:name
+		ADDED from AndroidManifest.xml:215:13
+activity#com.next.eswaraj.activities.ConstituencySnapshotActivity
+ADDED from AndroidManifest.xml:224:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:228:13
+	android:label
+		ADDED from AndroidManifest.xml:226:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:227:13
+	android:name
+		ADDED from AndroidManifest.xml:225:13
+activity#com.next.eswaraj.activities.UserSnapshotActivity
+ADDED from AndroidManifest.xml:233:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:237:13
+	android:label
+		ADDED from AndroidManifest.xml:235:13
+	android:parentActivityName
+		ADDED from AndroidManifest.xml:236:13
+	android:name
+		ADDED from AndroidManifest.xml:234:13
+activity#com.next.eswaraj.activities.SearchableActivity
+ADDED from AndroidManifest.xml:242:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:245:13
+	android:label
+		ADDED from AndroidManifest.xml:244:13
+	android:name
+		ADDED from AndroidManifest.xml:243:13
+intent-filter#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:246:13
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:247:17
+	android:name
+		ADDED from AndroidManifest.xml:247:25
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:250:13
+	android:resource
+		ADDED from AndroidManifest.xml:252:17
+	android:name
+		ADDED from AndroidManifest.xml:251:17
+meta-data#android.app.default_searchable
+ADDED from AndroidManifest.xml:255:9
+	android:name
+		ADDED from AndroidManifest.xml:256:13
+	android:value
+		ADDED from AndroidManifest.xml:257:13
+activity#com.next.eswaraj.activities.LeaderListActivity
+ADDED from AndroidManifest.xml:259:9
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:263:13
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:262:13
+	android:label
+		ADDED from AndroidManifest.xml:261:13
+	android:name
+		ADDED from AndroidManifest.xml:260:13
+activity#com.next.eswaraj.activities.LocationListActivity
+ADDED from AndroidManifest.xml:265:9
+	android:label
+		ADDED from AndroidManifest.xml:267:13
+	android:name
+		ADDED from AndroidManifest.xml:266:13
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.facebook.android:facebook-android-sdk:3.20.0:20:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.pnikosis:materialish-progress:1.2:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from cn.pedant.sweetalert:library:1.3:7:5
+MERGED from com.pnikosis:materialish-progress:1.2:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.github.amlcurran.showcaseview:library:5.0.0:7:5
+MERGED from com.google.maps.android:android-maps-utils:0.3.4:5:5
+MERGED from com.makeramen:roundedimageview:1.5.0:7:5
+MERGED from com.astuetz:pagerslidingtabstrip:1.0.1:2:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:cardview-v7:21.0.3:15:5
+MERGED from com.android.support:recyclerview-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:21.0.3:18:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:21.0.3:18:19
+	android:name
+		ADDED from com.android.support:recyclerview-v7:21.0.3:18:60

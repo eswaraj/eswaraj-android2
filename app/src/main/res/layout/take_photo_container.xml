@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/take_photo_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="16dp" >
+
+    <Button
+        android:id="@+id/adTakePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableBottom="@drawable/issue_details_take"
+        android:drawablePadding="8dp"
+        android:text="Take Photo"
+        android:textColor="#0099cc"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Or"
+        android:textColor="#0099cc"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/adAttachPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableBottom="@drawable/issue_details_attach"
+        android:drawablePadding="8dp"
+        android:text="Attach Photo"
+        android:textColor="#0099cc"
+        android:textSize="17sp" />
+
+</LinearLayout>
